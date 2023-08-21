@@ -2,12 +2,55 @@ import React from "react";
 
 export default function Skills() {
   return (
-    <div>
-      <div className="d-flex gap-5">
-        <div className="w-100">
-          <input type="range" style={{
-            trackHeight:20
-          }} />
+    <div className="px-5">
+      <div className="d-flex gap-5 container px-5">
+        <div className="w-100 mt-5">
+          <input
+            type="range"
+            style={{
+              transform: "rotate(90deg),",
+            }}
+          />
+        </div>
+        <div className="w-100 mt-5">
+          <input
+            type="range"
+            style={{
+              transform: "rotate(90deg),",
+            }}
+          />
+        </div>
+        <div className="w-100 mt-5">
+          <input
+            type="range"
+            style={{
+              transform: "rotate(90deg),",
+            }}
+          />
+        </div>
+        <div className="w-100 mt-5">
+          <input
+            type="range"
+            style={{
+              transform: "rotate(90deg),",
+            }}
+          />
+        </div>
+        <div className="w-100 mt-5">
+          <input
+            type="range"
+            style={{
+              transform: "rotate(90deg),",
+            }}
+          />
+        </div>
+        <div className="w-100 mt-5">
+          <input
+            type="range"
+            style={{
+              transform: "rotate(90deg),",
+            }}
+          />
         </div>
       </div>
     </div>

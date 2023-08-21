@@ -22,3 +22,7 @@ code {
 .border-purple {
   border-color: #5b46af !important;
 }
+
+input[type="range"] {
+  transform: rotate(-90deg);
+}

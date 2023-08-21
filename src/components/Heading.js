@@ -12,7 +12,6 @@ export default function Heading({heading, description}) {
           WebkitBackgroundClip: "text",
           backgroundClip: "text",
           WebkitTextFillColor: "transparent",
-          marginBottom: -25
         }}
       >
         {heading}
