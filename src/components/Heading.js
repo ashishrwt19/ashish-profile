@@ -1,9 +1,12 @@
-import React from "react";
-
-export default function Heading({heading, description}) {
+import React, { useLayoutEffect } from "react";
+import { motion } from "framer-motion";
+export default function Heading({ heading, description }) {
   return (
     <div>
-      <div
+      <motion.div
+        initial={{ transform: "translateY(10%)", opacity: 0 }}
+        whileInView={{ opacity: 1, transform: "translateY(0)" }}
+        transition={{ ease: "easeIn", duration: 1 }}
         style={{
           fontSize: 150,
           fontWeight: "bold",
@@ -15,10 +18,8 @@ export default function Heading({heading, description}) {
         }}
       >
         {heading}
-      </div>
-      <div className="container px-5 text-center">
-        {description}
-      </div>
+      </motion.div>
+      <div className="container px-5 text-center">{description}</div>
     </div>
   );
 }

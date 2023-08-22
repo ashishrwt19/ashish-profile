@@ -11,9 +11,9 @@ function App() {
     <div className="text-center">
       <HeaderNav />
       <Hero />
-      <Heading heading="ABOUT US" description={aboutDescription} />
+      <Heading id={'aboutHeading'} heading="ABOUT US" description={aboutDescription} />
       <About />
-      <Heading heading="SKILLS" description="" />
+      <Heading id={'skillsHeading'} heading="SKILLS" description="" />
       <Skills />
       <div className="mt-5 p-5"></div>
     </div>
